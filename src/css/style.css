@@ -7,8 +7,8 @@ body {
 
 .cabecalho {
     height: 80px;
-    color: #282828;
-    background-color: #c4c4c4;
+    color: #C4C4C4;
+    background-color: #282828;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,11 +16,17 @@ body {
     border-bottom: 1px solid #282828;
 }
 
+.cabecalho .logo img {
+    height: 40px;
+    margin: 10px;
+}
+
 .cabecalho .logo {
     display: flex;
-    gap: 30px;
-    height: 80%;
-    width: 80%;
+    gap: 15px;
+    border-radius: 10px;
+    background-color: #C4C4C4;
+    border: 3px solid #ef4444;
 }
 
 .cabecalho .menu {
@@ -29,15 +35,15 @@ body {
 }
 
 .cabecalho .menu li a {
-    padding: 5px 30px;
+    padding: 30px;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'chalet', sans-serif;
     transition: 0.3s;
 }
 
 .cabecalho .menu li a:hover {
-    border-bottom: 2px solid #282828;
+    border-bottom: 2px solid #FFF;
 }
 
 .cabecalho .menu .assassino-hover:hover {
